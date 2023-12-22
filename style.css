@@ -1,0 +1,56 @@
+html{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #343a40;  
+    width: 100%;
+}
+
+.title a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)0f0; 
+    font-size: 1.5em;
+    padding-left: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+h2, p {
+    text-align: center;
+}
+
+
+nav a:hover,
+nav a.active {
+    text-decoration: underline;
+}
+
+.title{
+    float: left;
+}
